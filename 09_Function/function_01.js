@@ -6,38 +6,38 @@ function myName(){
     console.log("N");
     console.log("D");
 }
-// myName();
+myName();
 
-// function addTwoNumbers(number1,number2){
-//     console.log(number1 + number2);
+function addTwoNumbers(number1,number2){
+    console.log(number1 + number2);
     
-// }
-// addTwoNumbers()  // Nan
-// addTwoNumbers(5,4)  // o/p = 9
-// addTwoNumbers(5,"4")   // o/p = 54
-// addTwoNumbers(4,"a")   // o/p = 4a
-// addTwoNumbers(4+null)   // o/p = 4
+}
+addTwoNumbers()  // Nan
+addTwoNumbers(5,4)  // o/p = 9
+addTwoNumbers(5,"4")   // o/p = 54
+addTwoNumbers(4,"a")   // o/p = 4a
+addTwoNumbers(4+null)   // o/p = 4
 
 
-// function addThreeNumbers(number1,number2,number3){
-    // console.log(number1 + number2 + number3);
+function addThreeNumbers(number1,number2,number3){
+    console.log(number1 + number2 + number3);
 
-    // let result = number1 + number2 + number3
-    // return result;
+    let result = number1 + number2 + number3
+    return result;
 
-    // return number1 + number2 + number3;
+    return number1 + number2 + number3;
 
-// }
-// const result = addThreeNumbers(5 , 5 , 5);
-// console.log("result= ", result);
+}
+const result = addThreeNumbers(5 , 5 , 5);
+console.log("result= ", result);
 
 
 
 function userLoginMassage(userName = "Jarvis"){
-    // if(userName === undefined){
-    //       console.log("Please enter a user name");
-    //       return;
-    // }
+    if(userName === undefined){
+          console.log("Please enter a user name");
+          return;
+    }
 
     if(!userName){
         console.log("Please enter a user name");
@@ -48,6 +48,6 @@ function userLoginMassage(userName = "Jarvis"){
 
 }
 console.log(userLoginMassage("Mukund Madhav"));    // Mukund Madhav is login
-// console.log(userLoginMassage(""));             // is login
-// console.log(userLoginMassage());         // undefined
+console.log(userLoginMassage(""));             // is login
+console.log(userLoginMassage());         // undefined
 
